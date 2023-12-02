@@ -1,0 +1,38 @@
+{
+  "name": "auth-exam",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@mui/material": "^5.14.18",
+    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-navigation/material-top-tabs": "^6.6.5",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "axios": "^1.6.2",
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-loader-spinner": "^5.4.5",
+    "react-native": "0.72.6",
+    "react-native-loading-spinner-overlay": "^3.0.1",
+    "react-native-paper": "^5.11.1",
+    "react-native-status-bar-height": "^2.6.0",
+    "react-native-tab-view": "^3.5.2",
+    "react-native-table-component": "^1.2.2",
+    "react-native-vector-icons": "^10.0.2",
+    "react-navigation-stack": "^2.10.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "@types/react-native-table-component": "^1.2.7",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
